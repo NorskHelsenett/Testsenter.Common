@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common.csproj", "{2FB3AFA3-9DDE-4E92-B2B7-93EA5B557AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTests", "..\..\Shared\CommonTests\CommonTests.csproj", "{1BC96F30-2222-4304-8C78-A4E1AFD3D684}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,15 +15,21 @@ Global
 		{2FB3AFA3-9DDE-4E92-B2B7-93EA5B557AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB3AFA3-9DDE-4E92-B2B7-93EA5B557AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB3AFA3-9DDE-4E92-B2B7-93EA5B557AA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BC96F30-2222-4304-8C78-A4E1AFD3D684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BC96F30-2222-4304-8C78-A4E1AFD3D684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BC96F30-2222-4304-8C78-A4E1AFD3D684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BC96F30-2222-4304-8C78-A4E1AFD3D684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7C9991D-33EC-49E0-B995-0FF5CD0F54C2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.helsedirektoratet.no/tfs/helsedirektoratet
+		SccProjectUniqueName0 = Common.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = https://tfs.helsedirektoratet.no/tfs/helsedirektoratet
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
