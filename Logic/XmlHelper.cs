@@ -11,7 +11,7 @@ namespace Shared.Common.Logic
         public static string GetInnerValueInXmlNode(this string msg, string start, string stop, bool replaceFnuffs = true)
         {
             var startIndex = msg.IndexOf(start, StringComparison.Ordinal);
-            if (startIndex <= 0)
+            if (startIndex < 0)
                 return null;
 
             var length = msg.Substring(startIndex).IndexOf(stop, StringComparison.Ordinal);
